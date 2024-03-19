@@ -79,7 +79,7 @@
                         <outlet property="emailText" destination="rR4-EY-fNg" id="Pwm-w0-1CZ"/>
                         <outlet property="passwordText" destination="Ogo-qO-kEo" id="7Mk-KZ-CEx"/>
                         <outlet property="titleLabel" destination="MbJ-f7-f3p" id="JVu-4N-Xnx"/>
-                        <segue destination="fhe-Jk-uMu" kind="presentation" identifier="toDetailsVC" modalPresentationStyle="fullScreen" id="kaw-3V-5MC"/>
+                        <segue destination="fhe-Jk-uMu" kind="presentation" identifier="toFeedVC" modalPresentationStyle="fullScreen" id="kaw-3V-5MC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -151,7 +151,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="xia-3M-6Uu">
             <objects>
-                <tabBarController id="fhe-Jk-uMu" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabBar" id="fhe-Jk-uMu" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="QMg-Vc-MmC"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P7k-g4-zc9">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
